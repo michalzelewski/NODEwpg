@@ -1,0 +1,19 @@
+/* begining of css style sheet */
+h1 {color: skyblue;
+}
+
+p {
+    color: gray;
+}
+
+p.test {
+    color: black;
+}
+
+.second_test {
+    color: purple;
+}
+
+a {
+    color: yellow;
+}
