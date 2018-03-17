@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    <form>
+        <div>
+        <label>
+          Name:
+          <input type="text" name="name" />
+        </label>
+        <label>
+          Surname:
+          <input type="text" name="surname" />
+        </label>
+        </div>
+
+        <div>
+                <label for="nameid">Name:</label>
+                <input type="text" name="name" id="nameid" />
+                <label for="surnameid">Surname:</label>
+                <input type="text" name="surname" id="surnameid" />
+        </div>
+          
+        <div>
+                <fieldset>
+                        <legend>User Form</legend>
+                        <label>Name:</label>
+                        <input type="text" name="name" />
+                        <label>Surname:</label>
+                        <input type="text" name="surname" />
+                      </fieldset>
+        </div>
+        <div>
+          <textarea name="about" cols="20" rows="10" >Initial textarea text!</textarea>
+            
+        </div>
+        <div>
+          <form>
+            <select name="options">
+              <option>First Item</option>
+              <option>Second Item</option>
+            </select>
+          </form>
+        </div>
+        <div>
+          <form>
+            <select name="countries" multiple="multiple" size="4">
+              <option value="">Please select a Country</option>
+              <option value="arg">Argentina</option>
+              <option value="bra">Brasil</option>
+              <option value="chl">Chile</option>
+              <option value="can" selected>Canada</option>
+            </select>
+          </form>
+        </div>
+        <div>
+          <form>
+            <button value="create" name="create-user">+ User</button>
+          </form>
+        </div>
+        <div>
+          <form>
+            <button>
+              <img src="plus-icon.png" alt="plus icon" />
+              User
+            </button>
+          </form>
+        
+        </div>
+        <div>
+          <form action="upload.php" method="post" enctype="multipart/form-data">
+            <input type="file" name="filename" />
+            <input type="file" name="filename" multiple="multiple" />
+            <input type="file" name="filename" multiple />
+          </form>
+        </div>
+      </form>
+</body>
+</html>

@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Create User</title>
+</head>
+<body>
+    <h1>Create User</h1>
+        <hr>
+            <form action="upload.php" method="post" enctype="multipart/form-data">
+                <div>
+                    <label for="nameid">Your name:</label>
+                    <input type="text" name="name" placeholder="name" id="nameid" />
+                </div>
+                <div>
+                    <p>Superheroes movies!</p>
+                    <select name="superheroes_movie">
+                        <option value="">Please select your favorite movie</option>
+                        <option value="deadpool">Deadpool</option>
+                        <option value="batman_vs_superman">Batman v Superman</option>
+                        <option value="civil_war">Captain America: Civil War</option>
+                        <option value="doctor_strange">Doctor Strange</option>
+                        <option value="suicide_squad">Suicide Squad</option>
+                        <option value="apocalypse">X-Men: Apocalypse</option>
+                        <option value="gotg_vol2">Guardians of the Galaxy Vol 2</option>
+                        <option value="justice_league">Justice League</option>
+                        <option value="logan">Logan</option>
+                        <option value="homecoming">Spider-Man: Homecoming</option>
+                        <option value="wonder_woman" selected="selected">Wonder Woman</option>
+                        <option value="thor_ragnarok">Thor: Ragnarok</option>
+                        <option value="black_panther">Black Panther</option>
+                    </select>
+                </div>
+                <div>
+                    <br>
+                    <textarea name="about" placeholder="Please let us know why you chose it" cols="32" rows="10" ></textarea>
+                </div>
+                <div>
+                    <label>Upload your avatar!</label> 
+                    <input type="file" name="filename" id="avatar" />
+                </div>
+                    <br>
+                <div>
+                    <button>
+                        <img src="remove.jpg" name="clear_form" alt="remove icon" width="100" height="30"/>
+                    </button>
+
+                    <button value="create" name="create-user" style="width:100px;height:30px;">Add new user</button>
+                </div>    
+            </form>
+</body>
+</html>

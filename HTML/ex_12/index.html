@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Create User</title>
+    <link rel="shortcut icon" href="mapleleaf.ico" type="image/x-icon">
+</head>
+<body>
+    <h1>Create User</h1>
+        <hr>
+        <!-- extra target // form -->
+        <form action="create_user.html"  target="_blank" method="get" enctype="application/x-www-form-urlencoded">
+            <fieldset>
+            <input type="text" name="username" placeholder="username" size="30" maxlength="12" minlength="3" required>
+            <input type="password" name="password" placeholder="password" size="30" maxlength="8" minlength="3" required>
+        
+                <div>
+        <!-- superhero radio button form -->
+            <label>Select your favourite superhero:</label>
+            <input type="radio" name="superheroes" value="Superman" > Superman
+            <input type="radio" name="superheroes" value="Batman"> Batman
+            <input type="radio" name="superheroes" value="Wonder Woman" checked="checked"> Wonder Woman
+            <input type="radio" name="superheroes" value="Flash"> Flash
+            <input type="radio" name="superheroes" value="Thor"> Thor
+            <input type="radio" name="superheroes" value="Hulk"> Hulk
+                </div>    
+                <div>
+        <!-- videogames checkbox form -->
+            <label>Select your favourite video game:</label>
+            <input type="checkbox" name="videogames" value="Fallout" checked="checked" > Fallout
+            <input type="checkbox" name="videogames" value="GTA"> GTA
+            <input type="checkbox" name="videogames" value="Half Life"> Half Life
+            <input type="checkbox" name="videogames" value="Uncharted" checked> Uncharted
+                </div>
+                <div>
+        <!-- image button -->
+            <input type="hidden" name="userid" value="2300" >
+            <input type="image" src="img/register_button.png" alt="button" width="80" height="30" >
+                </div>   
+            </fieldset>
+        </form>        
+</body>
+</html>
