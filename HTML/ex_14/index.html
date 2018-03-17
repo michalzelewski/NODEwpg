@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Create User</title>
+    <link rel="shortcut icon" href="mapleleaf.ico" type="image/x-icon">
+</head>
+<body>
+    <h1>Create User</h1>
+        <hr>
+        <!-- extra target // form -->
+        <form action="create_user.html"  target="_blank" method="post" enctype="application/x-www-form-urlencoded">
+            <fieldset>
+                <div>
+                    <input type="text" name="username" placeholder="username" size="30" maxlength="12" minlength="3" required>
+                    <input type="password" name="password" placeholder="password" size="30" maxlength="8" minlength="3" required>
+                </div>
+                <div>
+        <!-- superhero radio button form -->
+            Select your favourite superhero:
+            <input type="radio" name="superheroes" value="Superman" > Superman
+            <input type="radio" name="superheroes" value="Batman"> Batman
+            <input type="radio" name="superheroes" value="Wonder Woman" checked="checked"> Wonder Woman
+            <input type="radio" name="superheroes" value="Flash"> Flash
+            <input type="radio" name="superheroes" value="Thor"> Thor
+            <input type="radio" name="superheroes" value="Hulk"> Hulk
+                </div>    
+                <div>
+        <!-- videogames checkbox form -->
+            Select your favourite video game:
+            <input type="checkbox" name="videogames" value="Fallout" checked="checked" > Fallout
+            <input type="checkbox" name="videogames" value="GTA"> GTA
+            <input type="checkbox" name="videogames" value="Half Life"> Half Life
+            <input type="checkbox" name="videogames" value="Uncharted" checked> Uncharted
+                </div>
+        <!-- date input -->        
+                <div>
+                    <label for="dateid">Date of Birth</label>
+                    <input id="dateid" name="birthday" type="date" value="2000-03-09">         
+                </div>
+        <!-- email input -->        
+                <div>
+                    <label for="emailid">Please provide e-mail address</label>
+                    <input type="email" name="email" id="emailid" />
+                </div>
+                <div>
+                    <label for="urlid">Add your site URL</label>
+                    <input type="url" name="personal_site" placeholder="file:///C:/Users/michal/Desktop/NODE.js/Lesson%208/ex_14/index.html" id="urlid" />
+                </div>
+                <div>
+        <!-- image button -->
+            <input type="hidden" name="userid" value="2300" >
+            <input type="image" src="img/register_button.png" alt="button" width="80" height="30" >
+                </div>   
+            </fieldset>
+        </form>
+        <br>
+        <form action="https://www.google.ca/search">
+            <input type="search" name="query" />
+            <button>search</button>
+        </form>        
+</body>
+</html>
