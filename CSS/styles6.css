@@ -1,0 +1,59 @@
+body {
+    font-family: Arial;
+    color: black;
+    font-size: 16px;
+  }
+
+h1 {
+    font-size: 2em;
+    }
+
+h2 {
+    font-size: 1.5em;
+    }  
+
+h1, h2 {
+    color: #ddd;
+    text-shadow: 1px 2px 3px #666;
+    text-transform: uppercase; 
+    }
+
+p {
+    line-height: 1.4em;
+    text-indent: 0.8em;
+    }   
+
+.main {
+    text-align: justify;
+    }
+
+.bold {
+    color: coral;
+    font-weight: bold;
+    }
+
+#quote {
+    color: darkcyan;
+    font-style: italic;
+    letter-spacing: 2px;
+    }
+
+.last {
+    color: red;
+    text-align: right;
+    }
+
+.wrong {
+    font-size: 1.2em;
+    text-decoration-line: line-through;
+    text-decoration-color: black;
+    font-weight: 700;
+    }
+
+.google {
+    font-family: 'Merriweather', serif;
+    font-size: 1.6em;
+    color: purple;
+    }
+
+  
