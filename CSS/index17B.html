@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html>
+  <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>Learning CSS</title>
+        <style>
+            table {
+                color: #9fa8a3;
+                border-collapse: collapse;
+                font-family: Arial, Helvetica, sans-serif
+            }
+
+            thead {
+                color: #9fa8a3;
+                font-weight: bold;
+            }
+
+            tbody tr {
+                border-bottom: 1px solid #ddd;
+            }
+
+            th, td {
+                padding: 20px;
+            }
+
+            td:first-child {
+                color: #3e7589;
+            }
+
+            tr:last-child {
+                border: none;
+            }
+
+            tfoot {
+                text-align: center;
+            }
+
+            tfoot a {
+                display: inline-block;
+                text-decoration: none;
+                color: #e3e0cf;
+                margin-right: 10px;
+            }
+
+            tfoot .active {
+                color: white;
+                font-weight: bold;
+                background-color: #c0dfd9;
+                padding: 10px 15px 10px 15px;
+                border-radius: 10px;
+            }
+
+            .selected {
+                background-color: #d9edf6;
+            }
+
+            .error {
+                background-color: #b56969;
+            }
+
+            a:hover {
+                color: #3b3a36;
+            }
+
+        </style>
+  </head>
+  <body>
+    <table>
+      <thead>
+        <tr>
+            <th>Header 1</th>
+            <th>Header 2</th>
+            <th>Header 3</th>
+            <th>Header 4</th>
+            <th>Header 5</th>
+            <th>Header 6</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr class="error">
+          <td>Content 1</td>
+          <td>Content 2</td>
+          <td>Content 3</td>
+          <td>Content 4</td>
+          <td>Content 5</td>
+          <td>Content 6</td>
+        </tr>
+        <tr>
+          <td>Content 1</td>
+          <td>Content 2</td>
+          <td>Content 3</td>
+          <td>Content 4</td>
+          <td>Content 5</td>
+          <td>Content 6</td>
+        </tr>
+        <tr class="selected">
+          <td>Content 1</td>
+          <td>Content 2</td>
+          <td>Content 3</td>
+          <td>Content 4</td>
+          <td>Content 5</td>
+          <td>Content 6</td>
+        </tr>
+        <tr>
+          <td>Content 1</td>
+          <td>Content 2</td>
+          <td>Content 3</td>
+          <td>Content 4</td>
+          <td>Content 5</td>
+          <td>Content 6</td>
+        </tr>
+      </tbody>
+      <tfoot>
+        <tr>
+          <td colspan="6">
+            <a href="#">first</a>
+            <a href="#">1</a>
+            <a href="#" class="active">2</a>
+            <a href="#">3</a>
+            <a href="#">last</a>
+          </td>
+        </tr>
+      </tfoot>
+    </table>
+  </body>
+</html>
