@@ -1,8 +1,8 @@
 # NODEwpg
 This project it's to learn HTML, CSS, JS, Node.js and MongoDB
 
-[HTML](./html)
+[HTML](/HTML)
 
-[CSS](./css)
+[CSS](/CSS)
 
-[JAVASCRIPT](./javascript)
+[JAVASCRIPT](/JAVASCRIPT)
