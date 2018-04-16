@@ -1,0 +1,6 @@
+const number = 10;
+if (number % 2 == 0) {
+    console.log(`${number} is an even number`);
+}
+
+// if number will be odd than code won't be executed
