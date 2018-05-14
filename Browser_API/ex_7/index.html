@@ -1,0 +1,33 @@
+<!-- Create a basic HTML document
+Create a script tag on the document head element
+Show the user the following message using the alert method:
+    This program adds all the numbers you input
+While the user confirms that he wants to input another number
+execute the following acctions
+Using the prompt method ask the user to input a number
+Add the number
+Show the partial result with the following message:
+    The result so far is: %result% -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <script>
+        let result = 0;
+        alert(`This program adds all the numbers you input`);
+        while (confirm(`would you like to enter a number?`)) {
+            const number = prompt('please enter a number');
+            result = result + parseInt(number);
+            //result = result + +number;
+            alert(`The result so far is: ${result}`);
+        }  
+    </script>
+</head>
+<body>
+    
+</body>
+</html>
